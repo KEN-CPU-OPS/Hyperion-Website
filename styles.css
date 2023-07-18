@@ -1,0 +1,55 @@
+/* Reset some default styles for consistency */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap');
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Global styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+p{
+    font-family: 'Montserrat', sans-serif;;
+}
+header {
+    background-image: linear-gradient(to right, purple , blue);
+    color: #fff;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 40px 0;
+}
+
+section {
+    padding: 40px 0;
+}
+
+footer {
+    background-image: linear-gradient(to right, purple , blue);
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
